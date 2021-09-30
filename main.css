@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+:root {
+  --primary-color: #3e3d57;
+  --secondary-color: #f4590549;
+  --off-white: #c2cad8;
+  --dark-gray: #515a6d;
+  --black: #000000;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  font-family: 'Bebas Neue', cursive;
+  margin: 0px;
+}
+
+label {
+  display: block;
+  margin-top: 2rem;
+}
+
+input {
+    width: 150px;
+    border-radius: 0.5rem;
+    padding:0.3rem;
+    margin: 1rem;
+    border: 2px solid var(--primary-color);
+}
+
+.container {
+  max-width: 600px;
+  font-size: large;
+  margin: auto;
+  text-align: center;
+}
+
+.container-center {
+    margin: 1rem;
+}
+
+#btn-check-lucky {
+    outline: none;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: 2px solid var(--primary-color);
+    background-color: var(--primary-color);
+    color: var(--off-white);
+}
+
+#p-lucky-or-not {
+    color: var(--secondary-color);
+    font-weight: bold;
+    margin:2rem;
+    font-size: large;
+}
